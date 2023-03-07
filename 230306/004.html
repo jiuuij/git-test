@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스꾸미기- 수업</title>
+    <style>
+        div {
+            width: 100px;
+            height: 48px;
+            line-height: 38px;
+            text-align: center;
+            background: #eee;
+            box-sizing: border-box;
+        }
+
+        .box1 {
+            color: #fff;
+            background: #343f50;
+            box-shadow: inset 5px 5px #4a5568;
+            border: 5px solid #000;
+        }
+
+        /*아웃 라인을 사용한다면 focus 된 상태까지 고려할것 
+        .box11 {
+            color: #fff;
+            background: #343f50;
+            border: 5px solid #4a5568;
+            border-width: 5px 0 0 5px;
+            outline: 5px solid #000;
+        }
+            */
+
+        .box2 {
+            color: #fff;
+            border-radius: 24px;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(173, 127, 255, 1) 0%, rgba(0, 160, 255, 1) 100%, rgba(58, 79, 255, 1) 100%);
+            border: 3px dashed lightgray;
+            background-clip: padding-box;
+            margin: 10px 0;
+        }
+
+        .box3 {
+            border: 3px solid #ddd;
+            border-radius: 0px 24px 24px 24px;
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">Hello🖐🏻</div>
+    <!-- <div class="box11">Hello🖐🏻</div> -->
+    <div class="box2">Hello🖐🏻</div>
+    <div class="box3">Hello🖐🏻</div>
+
+</body>
+
+</html>
