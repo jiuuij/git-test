@@ -1,0 +1,50 @@
+div {
+    width: 288px;
+    height: 374px;
+}
+
+header{
+    float: left;
+    display: flex;
+}
+.profile{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 100% ;
+}
+
+
+.title{
+    color : #29363D;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.id{
+    color : #5A6A72;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+
+.img{
+    width: 288px;
+    height: 196px;
+
+}
+
+.text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+
+}
+
+.button{
+    width: 20px;
+    height: 20px;
+}
